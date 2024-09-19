@@ -1,0 +1,63 @@
+body {
+    margin: 20px;
+    background: #3E1414;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.avatar {
+    width: 150px;
+    filter: drop-shadow(10px -1.5mm 1mm #6b3b3b);
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #D6BFBC;
+    color: #1b1013;
+    border-top: 12px solid #E26453;
+    border-bottom: 12px solid #1B1013;
+    border-radius: 1%;
+    
+    
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.text:hover span {
+  display: none
+}
+
+.text:hover:after {
+    content: "I am Grahf, the seeker of power.";
+    text-align: center;
+    color: #3E1414;
+}
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
